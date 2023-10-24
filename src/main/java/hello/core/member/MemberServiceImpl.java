@@ -1,5 +1,6 @@
 package hello.core.member;
 
+// test
 public class MemberServiceImpl implements MemberService{
 
     private final MemberRepository memberRepository = new MemoryMemberRepository();
