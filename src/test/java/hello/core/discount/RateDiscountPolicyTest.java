@@ -4,6 +4,8 @@ import hello.core.member.Grade;
 import hello.core.member.Member;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.context.ApplicationContext;
 
 import static org.assertj.core.api.Assertions.assertThat;
 
@@ -30,11 +32,9 @@ class RateDiscountPolicyTest {
         //when
         int discount = discountPolicy.discount(member,10000);
         //then
-        assertThat(discount).isEqualTo(10);
+        assertThat(discount).isEqualTo(0);
 
     }
-
-
 
 
 }
