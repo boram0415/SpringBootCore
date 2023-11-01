@@ -1,4 +1,4 @@
-package hello.core.singleTone;
+package hello.core.singleTon;
 
 public class StatefulService {
 

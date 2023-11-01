@@ -1,4 +1,4 @@
-package hello.core.singleTone;
+package hello.core.singleTon;
 
 public class SingleToneService {
 
@@ -18,3 +18,5 @@ public class SingleToneService {
     }
 
 }
+
+
